@@ -1,0 +1,23 @@
+body {
+  scroll-behavior: smooth;
+}
+
+.hero {
+  height: 100vh;
+  background: url("https://source.unsplash.com/1600x900/?restaurant,food") no-repeat center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  background: rgba(0,0,0,0.6);
+  padding: 40px;
+  color: white;
+  border-radius: 10px;
+}
+
+#menuItems .card {
+  margin-bottom: 20px;
+}
